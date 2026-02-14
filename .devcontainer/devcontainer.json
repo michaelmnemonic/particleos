@@ -1,0 +1,7 @@
+{
+  "name": "atomic",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {}
+}
