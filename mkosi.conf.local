@@ -1,2 +1,4 @@
 [Validation]
 Passphrase=mkosi.lukspw
+SecureBoot=no
+SignExpectedPcr=no
