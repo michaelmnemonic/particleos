@@ -8,6 +8,11 @@
             "type": "shell",
             "command": "mkosi --auto-bump --force",
             "group": "build",
+        },
+        {
+            "label": "systemd-repart: burn image",
+            "type": "shell",
+            "command": "systemd-repart --offline=yes --empty=force --dry-run=no --definitions=/ --copy-from=mkosi.output/ParticleOS_*_x86-64 /dev/sda"
         }
     ]
 }
