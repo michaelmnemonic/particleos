@@ -6,7 +6,7 @@
         {
             "label": "mkosi: build image",
             "type": "shell",
-            "command": "mkosi --force",
+            "command": "mkosi --auto-bump --force",
             "group": "build",
         }
     ]
